@@ -6,9 +6,14 @@ public class Zoo {
 		Animal lion = new Animal("Lion", 6, "medium");
 		Animal elephant = new Animal("Elephant", 25, "large");
 		
+		Bird parrot = new Bird("Parrot", 3, "small");
+		Fish salmon = new Fish("Salmon", 2, "small");
+		
 		zebra.eat();
 		lion.move();
 		elephant.sleep();
 		
+		parrot.fly();
+		salmon.swimm();
 	}
 }

@@ -15,5 +15,6 @@ public class Zoo {
 		
 		parrot.fly();
 		salmon.swimm();
+		parrot.eat();
 	}
 }

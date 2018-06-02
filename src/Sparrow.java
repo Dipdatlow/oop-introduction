@@ -7,6 +7,6 @@ public class Sparrow extends Bird implements Flyable{
 	}
 	
 	public void fly() {
-		System.out.println("The" +name + " is flying!");
+		System.out.println("The " +name + " is flying!");
 	}
 }

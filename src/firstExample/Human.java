@@ -1,3 +1,4 @@
+package firstExample;
 
 public class Human {
 	

@@ -1,3 +1,4 @@
+package firstExample;
 
 public class Earth {
 	public static void main(String Args[]) {

@@ -9,10 +9,9 @@ public class Bird extends Animal{
 		this.name = name;
 		this.age = age;
 		this.size = size;
-	}
 	
-	public void fly() {
-		System.out.println("The " + name + " is flying");
 	}
-	
+	public void flapWings() {
+		System.out.println("flappingWings");
+	}
 }

@@ -13,8 +13,16 @@ public class Zoo {
 		lion.move();
 		elephant.sleep();
 		
-		parrot.fly();
+		parrot.flapWings();
 		salmon.swimm();
 		parrot.eat();
+		
+		Chicken chicken = new Chicken("Chicken Little", 6, "small");
+		Sparrow sparrow = new Sparrow("Jack Sparrow", 3, "small");
+		
+		chicken.eat();
+		sparrow.fly();
+	
 	}
+	
 }

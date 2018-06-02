@@ -1,3 +1,4 @@
+package InterfaceExample;
 
 public class Bird extends Animal{
 
@@ -13,10 +14,5 @@ public class Bird extends Animal{
 	}
 	public void flapWings() {
 		System.out.println("flappingWings");
-	}
-	
-	public void move() {
-		System.out.println("Flapping Wings");
-		
 	}
 }

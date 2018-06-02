@@ -1,5 +1,6 @@
+package InterfaceExample;
 
-public abstract class Animal {
+public class Animal {
 	
 	String name;
 	int age;
@@ -19,6 +20,8 @@ public abstract class Animal {
 		System.out.println("the " + name + " is now sleeping");
 	}
 
-	public abstract void move();
-
+	public void move() {
+		System.out.println("the " + name + " is now moving");
+	}
 }
+

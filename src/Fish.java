@@ -14,4 +14,8 @@ public class Fish extends Animal{
 	public void swimm() {
 		System.out.println("The " + name +" is swimming!");
 	}
+
+	public void move() {
+		System.out.println("Swimming around");
+	}
 }

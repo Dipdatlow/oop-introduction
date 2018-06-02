@@ -2,10 +2,12 @@
 public class Zoo {
 	public static void main(String args[]) {
 
-		Animal chicken = new Fish("Nemo", 6, "small");
+		// Polymorphism example
+		
+		Animal fish1 = new Fish("Nemo", 6, "small");
 		Animal sparrow = new Sparrow("Jack Sparrow", 3, "small");
 		
-		moveAnimals(chicken);
+		moveAnimals(fish1);
 		moveAnimals(sparrow);
 	
 	}
